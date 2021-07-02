@@ -1,0 +1,284 @@
+﻿[
+  {
+    "ddr2": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 70,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "DAY"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 40,
+"start": 103,
+"end": 5,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 103,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/30/2015 13:20:16",
+"duration": 145,
+"distance": 1379,
+"airline": "19977"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 103,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/30/2015 13:20:16",
+"duration": 145,
+"distance": 1379,
+"airline": "19977"
+            }
+          },
+          "relationship": {
+"identity": 41,
+"start": 103,
+"end": 2,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "IAH"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 2,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "IAH"
+            }
+          },
+          "relationship": {
+"identity": 570,
+"start": 527,
+"end": 2,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 527,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/29/2015 11:30:28",
+"duration": 113,
+"distance": 925,
+"airline": "19977"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 527,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/29/2015 11:30:28",
+"duration": 113,
+"distance": 925,
+"airline": "19977"
+            }
+          },
+          "relationship": {
+"identity": 571,
+"start": 527,
+"end": 7,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 7,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 7,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          },
+          "relationship": {
+"identity": 656,
+"start": 595,
+"end": 7,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 595,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/29/2015 00:28:08",
+"duration": 52,
+"distance": 334,
+"airline": "19977"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 595,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/29/2015 00:28:08",
+"duration": 52,
+"distance": 334,
+"airline": "19977"
+            }
+          },
+          "relationship": {
+"identity": 655,
+"start": 595,
+"end": 8,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 8,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 8,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          },
+          "relationship": {
+"identity": 1260,
+"start": 1079,
+"end": 8,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1079,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/16/2015 11:51:32",
+"duration": 79,
+"distance": 574,
+"airline": "20304"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1079,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/16/2015 11:51:32",
+"duration": 79,
+"distance": 574,
+"airline": "20304"
+            }
+          },
+          "relationship": {
+"identity": 1261,
+"start": 1079,
+"end": 70,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 70,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DAY"
+            }
+          }
+        }
+      ],
+"length": 8.0
+    },
+    "total": null
+  }
+]

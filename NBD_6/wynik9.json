@@ -1,0 +1,12 @@
+﻿[
+  {
+    "airline": "19977",
+    "NumberofOriginCity": 35,
+    "NumberofDestCity": 39
+  },
+  {
+    "airline": "20304",
+    "NumberofOriginCity": 24,
+    "NumberofDestCity": 26
+  }
+]

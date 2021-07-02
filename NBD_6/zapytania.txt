@@ -1,0 +1,70 @@
+Zadanie 1
+
+MATCH p=shortestPath((bacon:town {name:"Darjeeling"})-[*]->(meg:peak {name:"Sandakphu"})) RETURN p
+
+Zadanie 2
+
+MATCH p=shortestPath((bacon:town {name:"Darjeeling"})-[*]->(meg:peak {name:"Sandakphu"})) WHERE ALL (a IN RELATIONSHIPS(p) WHERE a.winter = "true") RETURN p
+
+Zadanie 3
+
+MATCH pk=(bacon:town {name:"Darjeeling"})-[r*1..6]->(meg:peak {name:"Sandakphu"}) WHERE ALL(l IN NODES(pk)  WHERE  SINGLE(nonDuplicatedNode IN NODES(pk) WHERE  l=nonDuplicatedNode )) RETURN distinct(pk),reduce(total=0, n IN relationships(pk)|total+n.distance) AS x order by x
+
+Zadanie 4
+
+MATCH (bacon:Airport) -[meg]- (:Flight) return bacon,count(meg) ORDER BY count(meg) DESC
+
+Zadanie 5
+
+MATCH p = (bacon:Airport { name:"LAX" })<-[ok:ORIGIN]-(:Flight)-[oks:ORIGIN|DESTINATION*..10]->(destination:Airport)
+WHERE REDUCE(z = 0, n IN [l IN NODES(p) WHERE 'Flight' IN LABELS(l)] | z + [(n)<-[:ASSIGN]-(o) | o.price][0]) < 3000 RETURN p
+
+Zadanie 6
+
+MATCH var1=(origin:Airport { name:"LAX" })<-[o:ORIGIN]-(x:Flight)-[*1..8]-(pr:Airport{ name: 'DAY' })
+WITH REDUCE(koszt = 0, x IN [node IN NODES(var1) WHERE 'Flight' IN LABELS(node)] |
+  koszt + [(x)<-[:ASSIGN]-(bilet:Ticket {class:'economy'}) | bilet.koszt][0] ) as ekonomiczne,
+  REDUCE(koszt = 0, x IN [node IN NODES(var1) WHERE 'Flight' IN LABELS(node)] |
+    koszt + [(x)<-[:ASSIGN]-(bilet:Ticket {class:'business'}) | bilet.koszt][0] ) as biznes,
+    REDUCE(koszt = 0, x IN [node IN NODES(var1) WHERE 'Flight' IN LABELS(node)] |
+        koszt + [(x)<-[:ASSIGN]-(bilet:Ticket {class:'firstClass'}) | bilet.koszt][0] ) as firstklasa,var1
+RETURN var1, ekonomiczne, biznes, firstklasa
+ORDER BY ekonomiczne
+
+Zadanie 7
+
+MATCH ddr2=(pochodzenie:Airport { name:"LAX" })<-[o:ORIGIN]-(f:Flight)-[*1..8]-(da:Airport{ name: 'DAY' })
+WITH REDUCE(koszt = 0, f IN [x IN NODES(ddr2) WHERE 'Flight' IN LABELS(x)] |
+  koszt + [(f)<-[:ASSIGN]-(bilet:Ticket {class:'economy'}) | bilet.koszt][0] ) as total,
+        ddr2
+RETURN ddr2, total
+ORDER BY total ASC
+LIMIT 1
+
+Zadanie 8
+
+MATCH ddr2=(pochodzenie:Airport { name:"LAX" })<-[o:ORIGIN]-(f:Flight)-[*1..8]-(da:Airport{ name: 'DAY' })
+WITH REDUCE(koszt = 0, f IN [x IN NODES(ddr2) WHERE 'Flight' IN LABELS(x)] |
+  koszt + [(f)<-[:ASSIGN]-(bilet:Ticket {class:'business'}) | bilet.koszt][0] ) as total,
+        ddr2
+RETURN ddr2, total
+ORDER BY total ASC
+LIMIT 1
+
+Zadanie 9
+
+MATCH (dd:Flight) WITH DISTINCT  dd.airline AS airline
+MATCH (ddd:Flight)-[:ORIGIN]->(a1:Airport),
+(ddd2:Flight)-[:DESTINATION]->(a2:Airport)
+ WHERE  ddd.airline=airline AND ddd2.airline=airline
+RETURN airline,count(distinct(a1)) AS NumberofOriginCity,count(distinct(a2)) AS NumberofDestCity
+
+Zadanie 10
+
+MATCH dd = (x1:Airport)<-[t1:ORIGIN]-(f1:Flight)-[t2:DESTINATION]->(x2:Airport)<-[t3:ORIGIN]-(f2:Flight)-[t4:DESTINATION]->(x3:Airport)
+WHERE not(x1=x2) AND not(x1=x3) AND not(x2=x3)
+WITH dd, REDUCE(acc = 0, n IN [x IN NODES(dd) WHERE 'Flight' IN LABELS(x)] |
+  acc + [(n)<-[:ASSIGN]-(ticket {class: 'economy'}) | ticket.price][0]
+  ) as kwota
+RETURN dd, kwota
+ORDER BY kwota asc LIMIT 1
