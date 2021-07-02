@@ -1,0 +1,163 @@
+﻿[
+  {
+    "movie": {
+"identity": 164,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "do obejrzenia",
+"title": "Captain America: The First Avenger",
+"released": 2011
+      }
+    },
+    "person": {
+"identity": 169,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Jack Kirby",
+"born": 1994
+      }
+    }
+  },
+  {
+    "movie": {
+"identity": 164,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "do obejrzenia",
+"title": "Captain America: The First Avenger",
+"released": 2011
+      }
+    },
+    "person": {
+"identity": 167,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Chris Evans",
+"born": 1981
+      }
+    }
+  },
+  {
+    "movie": {
+"identity": 164,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "do obejrzenia",
+"title": "Captain America: The First Avenger",
+"released": 2011
+      }
+    },
+    "person": {
+"identity": 171,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Sebastian Stan",
+"born": 1982
+      }
+    }
+  },
+  {
+    "movie": {
+"identity": 164,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "do obejrzenia",
+"title": "Captain America: The First Avenger",
+"released": 2011
+      }
+    },
+    "person": {
+"identity": 170,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Stephen McFeely",
+"born": 1969
+      }
+    }
+  },
+  {
+    "movie": {
+"identity": 164,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "do obejrzenia",
+"title": "Captain America: The First Avenger",
+"released": 2011
+      }
+    },
+    "person": {
+"identity": 166,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Christopher Markus",
+"born": 1970
+      }
+    }
+  },
+  {
+    "movie": {
+"identity": 164,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "do obejrzenia",
+"title": "Captain America: The First Avenger",
+"released": 2011
+      }
+    },
+    "person": {
+"identity": 165,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Joe Johnston",
+"born": 1950
+      }
+    }
+  },
+  {
+    "movie": {
+"identity": 164,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "do obejrzenia",
+"title": "Captain America: The First Avenger",
+"released": 2011
+      }
+    },
+    "person": {
+"identity": 168,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Joe Simon",
+"born": 1913
+      }
+    }
+  }
+]

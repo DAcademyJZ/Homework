@@ -1,0 +1,410 @@
+﻿[
+  {
+    "aktor.name": "Emil Eifrem",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Hugo Weaving",
+    "COUNT": 5
+  },
+  {
+    "aktor.name": "Laurence Fishburne",
+    "COUNT": 3
+  },
+  {
+    "aktor.name": "Carrie-Anne Moss",
+    "COUNT": 3
+  },
+  {
+    "aktor.name": "Keanu Reeves",
+    "COUNT": 7
+  },
+  {
+    "aktor.name": "Al Pacino",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Charlize Theron",
+    "COUNT": 2
+  },
+  {
+    "aktor.name": "James Marshall",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Kevin Pollak",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "J.T. Walsh",
+    "COUNT": 2
+  },
+  {
+    "aktor.name": "Aaron Sorkin",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Cuba Gooding Jr.",
+    "COUNT": 4
+  },
+  {
+    "aktor.name": "Christopher Guest",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Noah Wyle",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Kiefer Sutherland",
+    "COUNT": 2
+  },
+  {
+    "aktor.name": "Kevin Bacon",
+    "COUNT": 3
+  },
+  {
+    "aktor.name": "Demi Moore",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Jack Nicholson",
+    "COUNT": 5
+  },
+  {
+    "aktor.name": "Tom Cruise",
+    "COUNT": 3
+  },
+  {
+    "aktor.name": "Val Kilmer",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Meg Ryan",
+    "COUNT": 5
+  },
+  {
+    "aktor.name": "Tom Skerritt",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Kelly McGillis",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Anthony Edwards",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Jerry O'Connell",
+    "COUNT": 2
+  },
+  {
+    "aktor.name": "Bonnie Hunt",
+    "COUNT": 2
+  },
+  {
+    "aktor.name": "Jay Mohr",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Jonathan Lipnicki",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Renee Zellweger",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Kelly Preston",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Regina King",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "River Phoenix",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Marshall Bell",
+    "COUNT": 2
+  },
+  {
+    "aktor.name": "Wil Wheaton",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "John Cusack",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Corey Feldman",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Helen Hunt",
+    "COUNT": 3
+  },
+  {
+    "aktor.name": "Greg Kinnear",
+    "COUNT": 2
+  },
+  {
+    "aktor.name": "Robin Williams",
+    "COUNT": 3
+  },
+  {
+    "aktor.name": "Max von Sydow",
+    "COUNT": 2
+  },
+  {
+    "aktor.name": "Werner Herzog",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Annabella Sciorra",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Ethan Hawke",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Rick Yune",
+    "COUNT": 2
+  },
+  {
+    "aktor.name": "James Cromwell",
+    "COUNT": 2
+  },
+  {
+    "aktor.name": "Tom Hanks",
+    "COUNT": 12
+  },
+  {
+    "aktor.name": "Parker Posey",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Steve Zahn",
+    "COUNT": 2
+  },
+  {
+    "aktor.name": "Dave Chappelle",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Victor Garber",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Bill Pullman",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Rita Wilson",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Rosie O'Donnell",
+    "COUNT": 2
+  },
+  {
+    "aktor.name": "Nathan Lane",
+    "COUNT": 2
+  },
+  {
+    "aktor.name": "Carrie Fisher",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Billy Crystal",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Bruno Kirby",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Liv Tyler",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Brooke Langton",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Orlando Jones",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Gene Hackman",
+    "COUNT": 3
+  },
+  {
+    "aktor.name": "Zach Grenier",
+    "COUNT": 2
+  },
+  {
+    "aktor.name": "Christian Bale",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Clint Eastwood",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Richard Harris",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Ice-T",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Dina Meyer",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Takeshi Kitano",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Jim Broadbent",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Halle Berry",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Ian McKellen",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Audrey Tautou",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Paul Bettany",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "John Hurt",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Stephen Rea",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Natalie Portman",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Ben Miles",
+    "COUNT": 3
+  },
+  {
+    "aktor.name": "Emile Hirsch",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Rain",
+    "COUNT": 2
+  },
+  {
+    "aktor.name": "Christina Ricci",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Susan Sarandon",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "John Goodman",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Matthew Fox",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Naomie Harris",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Sam Rockwell",
+    "COUNT": 2
+  },
+  {
+    "aktor.name": "Patricia Clarkson",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Michael Clarke Duncan",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "David Morse",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Gary Sinise",
+    "COUNT": 2
+  },
+  {
+    "aktor.name": "Michael Sheen",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Frank Langella",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Oliver Platt",
+    "COUNT": 2
+  },
+  {
+    "aktor.name": "John C. Reilly",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Danny DeVito",
+    "COUNT": 2
+  },
+  {
+    "aktor.name": "Ed Harris",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Bill Paxton",
+    "COUNT": 3
+  },
+  {
+    "aktor.name": "Philip Seymour Hoffman",
+    "COUNT": 2
+  },
+  {
+    "aktor.name": "Diane Keaton",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Julia Roberts",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Madonna",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Geena Davis",
+    "COUNT": 1
+  },
+  {
+    "aktor.name": "Lori Petty",
+    "COUNT": 1
+  }
+]

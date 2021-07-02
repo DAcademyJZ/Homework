@@ -1,0 +1,34 @@
+Zadanie 1
+MATCH (movie:Movie) RETURN movie
+Zadanie 2
+MATCH (hugo:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(HugoWeavingMovies) RETURN hugo,HugoWeavingMovies
+Zadanie 3
+MATCH (hugo:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(hugoWeavingMovies) <-[:DIRECTED]-(rezyserzy) RETURN rezyserzy
+Zadanie 4
+MATCH (thesamefilm:Person)-[:ACTED_IN]- (hugoWeavingMovies)<- [:ACTED_IN]-(hugo:Person {name: "Hugo Weaving"}) RETURN thesamefilm
+Zadanie 5
+MATCH (nazwa_matrix:Movie {title:"The Matrix"})<-[:ACTED_IN]-(aktorzy)-[:ACTED_IN]->(filmy) RETURN movies
+Zadanie 6
+MATCH (aktor:Person)-[:ACTED_IN]-(film:Movie) RETURN aktor.name, COUNT(*) as COUNT
+Zadanie 7
+MATCH (osoba:Person) -[:WROTE]->(D)<-[:DIRECTED]-(osoba:Person) RETURN osoba,D
+Zadanie 8
+match (p1:Person{name: "Keanu Reeves"})-[:ACTED_IN]->(m1:Movie)<-[:ACTED_IN]-(p2:Person{name: "Hugo Weaving"})-[:ACTED_IN]->(m2:Movie)<-[:ACTED_IN]-(p1)return p1,m1,m2,p2
+Zadanie 9
+CREATE (CA:Movie {title:"Captain America: The First Avenger",released: 2011, tagline:"do obejrzenia"})
+CREATE (JoeJohnston:Person {name:"Joe Johnston", born:1950})
+CREATE (ChrisMarkus:Person {name:'Christopher Markus', born:1970})
+CREATE (ChrisEvans:Person {name:'Chris Evans', born:1981})
+CREATE (JoeSimon:Person {name:'Joe Simon', born:1913})
+CREATE (JackKirby:Person {name:'Jack Kirby', born:1994})
+CREATE (StephenMcFeely:Person {name:'Stephen McFeely', born:1969})
+CREATE (SebastianStan:Person {name:'Sebastian Stan', born:1982})
+CREATE
+(JoeJohnston)-[:DIRECTED]->(CA),
+(ChrisMarkus)-[:WROTE]->(CA),
+(ChrisEvans)-[:ACTED_IN {roles:['Steven Steve Rogers']}]->(CA),
+(JoeSimon)-[:WROTE]->(CA),
+(JackKirby)-[:WROTE]->(CA),
+(StephenMcFeely)-[:WROTE]->(CA),
+(SebastianStan)-[:ACTED_IN {roles:['James Buchanan \'Bucky\' Barnes']}]->(CA),
+MATCH (movie:Movie) <-- (person:Person) WHERE movie.title CONTAINS 'Captain America: The First Avenger' RETURN movie,person
