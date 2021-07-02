@@ -1,0 +1,33 @@
+Zadanie 1
+curl -v -i -XPUT -H "Content-Type:application/json" -d "{"Witam":"Hey","z":3,"4":69.69,"rrrr":0}" http://127.0.0.1:8098/buckets/s23932/keys/one?returnbody=true
+curl -v -i -XPUT -H "Content-Type:application/json" -d "{"dr":2,"ssz":"3",4:633.69,"rrrrssss":null}" http://127.0.0.1:8098/buckets/s23932/keys/two?returnbody=true
+curl -v -i -XPUT -H "Content-Type:application/json" -d "{"kasztan":69.2,"kaszalot":"Don",4=5555:666,"rrrs":77}" http://127.0.0.1:8098/buckets/s23932/keys/three?returnbody=true
+curl -v -i -XPUT -H "Content-Type:application/json" -d "{"RZ":666222,"maybe5":"extra",55dd5:666,"rrrsss==s":77}" http://127.0.0.1:8098/buckets/s23932/keys/four?returnbody=true
+curl -v -i -XPUT -H "Content-Type:application/json" -d "{"RZzz":66622222,"maybe6":"extraaaaaa",33:666,"kalosze":333}" http://127.0.0.1:8098/buckets/s23932/keys/five?returnbody=true
+
+Zadanie 2
+curl -i http://127.0.0.1:8098/buckets/s23932/keys/one
+
+Zadanie 3
+curl -v -i -XPUT -H "Content-Type:application/json" -d "{"Witam":"Hey","z":3,"4":69.69,"rrrr":0,"maybe5":5}" http://127.0.0.1:8098/buckets/s23932/keys/one?returnbody=true
+
+Zadanie 4
+curl -v -i -XPUT -H "Content-Type:application/json" -d "{"Witam":"Hey","z":3,"rrrr":0,"maybe5":5}" http://127.0.0.1:8098/buckets/s23932/keys/one?returnbody=true
+
+Zadanie 5
+curl -v -i -XPUT -H "Content-Type:application/json" -d "{"Witam":"Hey","z":5,"rrrr":0,"maybe5":5}" http://127.0.0.1:8098/buckets/s23932/keys/one?returnbody=true
+
+Zadanie 6
+curl -i -XDELETE http://127.0.0.1:8098/buckets/s23932/keys/four
+
+Zadanie 7
+curl -i http://127.0.0.1:8098/buckets/s23932/keys/four
+
+Zadanie 8
+curl -i -XPOST -H "Content-Type:application/json" -d "{"Hey":"Hej"}" http://127.0.0.1:8098/buckets/s23932/keys
+
+Zadanie 9
+curl -i http://127.0.0.1:8098/buckets/s23932/keys/Ep8L7tQ14HLqwnl1VHFyNox8S1G
+
+Zadanie 10
+curl -i -XDELETE http://127.0.0.1:8098/buckets/s23932/keys/Ep8L7tQ14HLqwnl1VHFyNox8S1G

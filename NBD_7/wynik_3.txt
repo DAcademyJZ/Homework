@@ -1,0 +1,35 @@
+C:\Users\jakub>curl -v -i -XPUT -H "Content-Type:application/json" -d "{"Witam":"Hey","z":3,"4":69.69,"rrrr":0,"maybe5":5}" http://127.0.0.1:8098/buckets/s23932/keys/one?returnbody=true
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to 127.0.0.1 (127.0.0.1) port 8098 (#0)
+> PUT /buckets/s23932/keys/one?returnbody=true HTTP/1.1
+> Host: 127.0.0.1:8098
+> User-Agent: curl/7.55.1
+> Accept: */*
+> Content-Type:application/json
+> Content-Length: 39
+>
+* upload completely sent off: 39 out of 39 bytes
+< HTTP/1.1 200 OK
+HTTP/1.1 200 OK
+< X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvl946NlKIJszgymROY+VgWNN0C2+LAA=
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvl946NlKIJszgymROY+VgWNN0C2+LAA=
+< Vary: Accept-Encoding
+Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Link: </buckets/s23932>; rel="up"
+Link: </buckets/s23932>; rel="up"
+< Last-Modified: Thu, 01 Jul 2021 21:13:44 GMT
+Last-Modified: Thu, 01 Jul 2021 21:13:44 GMT
+< ETag: "5GM2XRQDo3TQDk7oO4HrdD"
+ETag: "5GM2XRQDo3TQDk7oO4HrdD"
+< Date: Thu, 01 Jul 2021 21:13:44 GMT
+Date: Thu, 01 Jul 2021 21:13:44 GMT
+< Content-Type: application/json
+Content-Type: application/json
+< Content-Length: 39
+Content-Length: 39
+
+<
+{Witam:Hey,z:3,4:69.69,rrrr:0,maybe5:5}* Connection #0 to host 127.0.0.1 left intact

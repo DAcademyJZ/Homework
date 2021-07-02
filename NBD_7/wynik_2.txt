@@ -1,0 +1,13 @@
+C:\Users\jakub>curl -i http://127.0.0.1:8098/buckets/s23932/keys/one
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvl946NlKIJszgymRMY+VwWtl0C2+LAA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s23932>; rel="up"
+Last-Modified: Thu, 01 Jul 2021 21:02:02 GMT
+ETag: "11O3IqyHFKi3cDuTcH93tr"
+Date: Thu, 01 Jul 2021 21:10:39 GMT
+Content-Type: application/json
+Content-Length: 30
+
+{Witam:Hey,z:3,4:69.69,rrrr:0}

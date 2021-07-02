@@ -1,0 +1,183 @@
+C:\Users\jakub>curl -v -i -XPUT -H "Content-Type:application/json" -d "{"Witam":"Hey","z":3,"4":69.69,"rrrr":0}" http://127.0.0.1:8098/buckets/s23932/keys/one?returnbody=true
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to 127.0.0.1 (127.0.0.1) port 8098 (#0)
+> PUT /buckets/s23932/keys/one?returnbody=true HTTP/1.1
+> Host: 127.0.0.1:8098
+> User-Agent: curl/7.55.1
+> Accept: */*
+> Content-Type:application/json
+> Content-Length: 30
+>
+* upload completely sent off: 30 out of 30 bytes
+< HTTP/1.1 200 OK
+HTTP/1.1 200 OK
+< X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvl946NlKIJszgymRMY+VwWtl0C2+LAA=
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvl946NlKIJszgymRMY+VwWtl0C2+LAA=
+< Vary: Accept-Encoding
+Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Link: </buckets/s23932>; rel="up"
+Link: </buckets/s23932>; rel="up"
+< Last-Modified: Thu, 01 Jul 2021 21:02:02 GMT
+Last-Modified: Thu, 01 Jul 2021 21:02:02 GMT
+< ETag: "11O3IqyHFKi3cDuTcH93tr"
+ETag: "11O3IqyHFKi3cDuTcH93tr"
+< Date: Thu, 01 Jul 2021 21:02:02 GMT
+Date: Thu, 01 Jul 2021 21:02:02 GMT
+< Content-Type: application/json
+Content-Type: application/json
+< Content-Length: 30
+Content-Length: 30
+
+<
+{Witam:Hey,z:3,4:69.69,rrrr:0}* Connection #0 to host 127.0.0.1 left intact
+
+
+C:\Users\jakub>curl -v -i -XPUT -H "Content-Type:application/json" -d "{"dr":2,"ssz":"3",4:633.69,"rrrrssss":null}" http://127.0.0.1:8098/buckets/s23932/keys/two?returnbody=true
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to 127.0.0.1 (127.0.0.1) port 8098 (#0)
+> PUT /buckets/s23932/keys/two?returnbody=true HTTP/1.1
+> Host: 127.0.0.1:8098
+> User-Agent: curl/7.55.1
+> Accept: */*
+> Content-Type:application/json
+> Content-Length: 35
+>
+* upload completely sent off: 35 out of 35 bytes
+< HTTP/1.1 200 OK
+HTTP/1.1 200 OK
+< X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvl94YP0fiFAiYx4rw/GVQbf4sgA=
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvl94YP0fiFAiYx4rw/GVQbf4sgA=
+< Vary: Accept-Encoding
+Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Link: </buckets/s23932>; rel="up"
+Link: </buckets/s23932>; rel="up"
+< Last-Modified: Thu, 01 Jul 2021 21:04:07 GMT
+Last-Modified: Thu, 01 Jul 2021 21:04:07 GMT
+< ETag: "2O1lyl9D1skMviknRMtcOk"
+ETag: "2O1lyl9D1skMviknRMtcOk"
+< Date: Thu, 01 Jul 2021 21:04:07 GMT
+Date: Thu, 01 Jul 2021 21:04:07 GMT
+< Content-Type: application/json
+Content-Type: application/json
+< Content-Length: 35
+Content-Length: 35
+
+<
+{dr:2,ssz:3,4:633.69,rrrrssss:null}* Connection #0 to host 127.0.0.1 left intact
+
+
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to 127.0.0.1 (127.0.0.1) port 8098 (#0)
+> PUT /buckets/s23932/keys/three?returnbody=true HTTP/1.1
+> Host: 127.0.0.1:8098
+> User-Agent: curl/7.55.1
+> Accept: */*
+> Content-Type:application/json
+> Content-Length: 46
+>
+* upload completely sent off: 46 out of 46 bytes
+< HTTP/1.1 200 OK
+HTTP/1.1 200 OK
+< X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvl94YPkdiFAiYx4rg9SqoFt8WQA=
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvl94YPkdiFAiYx4rg9SqoFt8WQA=
+< Vary: Accept-Encoding
+Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Link: </buckets/s23932>; rel="up"
+Link: </buckets/s23932>; rel="up"
+< Last-Modified: Thu, 01 Jul 2021 21:05:30 GMT
+Last-Modified: Thu, 01 Jul 2021 21:05:30 GMT
+< ETag: "6XsHo4sAG0DrfhigfTBDEu"
+ETag: "6XsHo4sAG0DrfhigfTBDEu"
+< Date: Thu, 01 Jul 2021 21:05:30 GMT
+Date: Thu, 01 Jul 2021 21:05:30 GMT
+< Content-Type: application/json
+Content-Type: application/json
+< Content-Length: 46
+Content-Length: 46
+
+<
+{kasztan:69.2,kaszalot:Don,4=5555:666,rrrs:77}* Connection #0 to host 127.0.0.1 left intact
+
+
+C:\Users\jakub>curl -v -i -XPUT -H "Content-Type:application/json" -d "{"RZ":666222,"maybe5":"extra",55dd5:666,"rrrsss==s":77}" http://127.0.0.1:8098/buckets/s23932/keys/four?returnbody=true
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to 127.0.0.1 (127.0.0.1) port 8098 (#0)
+> PUT /buckets/s23932/keys/four?returnbody=true HTTP/1.1
+> Host: 127.0.0.1:8098
+> User-Agent: curl/7.55.1
+> Accept: */*
+> Content-Type:application/json
+> Content-Length: 47
+>
+* upload completely sent off: 47 out of 47 bytes
+< HTTP/1.1 200 OK
+HTTP/1.1 200 OK
+< X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvl+480srRCiRMY+VIWNV0C2+LAA=
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvl+480srRCiRMY+VIWNV0C2+LAA=
+< Vary: Accept-Encoding
+Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Link: </buckets/s23932>; rel="up"
+Link: </buckets/s23932>; rel="up"
+< Last-Modified: Thu, 01 Jul 2021 21:06:48 GMT
+Last-Modified: Thu, 01 Jul 2021 21:06:48 GMT
+< ETag: "1b19gvpajTDvcidyN6nOah"
+ETag: "1b19gvpajTDvcidyN6nOah"
+< Date: Thu, 01 Jul 2021 21:06:48 GMT
+Date: Thu, 01 Jul 2021 21:06:48 GMT
+< Content-Type: application/json
+Content-Type: application/json
+< Content-Length: 47
+Content-Length: 47
+
+<
+{RZ:666222,maybe5:extra,55dd5:666,rrrsss==s:77}* Connection #0 to host 127.0.0.1 left intact
+
+
+C:\Users\jakub>curl -v -i -XPUT -H "Content-Type:application/json" -d "{"RZzz":66622222,"maybe6":"extraaaaaa",33:666,"kalosze":333}" http://127.0.0.1:8098/buckets/s23932/keys/five?returnbody=true
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to 127.0.0.1 (127.0.0.1) port 8098 (#0)
+> PUT /buckets/s23932/keys/five?returnbody=true HTTP/1.1
+> Host: 127.0.0.1:8098
+> User-Agent: curl/7.55.1
+> Accept: */*
+> Content-Type:application/json
+> Content-Length: 52
+>
+* upload completely sent off: 52 out of 52 bytes
+< HTTP/1.1 200 OK
+HTTP/1.1 200 OK
+< X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvl94ZUEWRCiRMY+VYcWqoFt8WQA=
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvl94ZUEWRCiRMY+VYcWqoFt8WQA=
+< Vary: Accept-Encoding
+Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Link: </buckets/s23932>; rel="up"
+Link: </buckets/s23932>; rel="up"
+< Last-Modified: Thu, 01 Jul 2021 21:07:52 GMT
+Last-Modified: Thu, 01 Jul 2021 21:07:52 GMT
+< ETag: "84ZCDzR3m1slfH1ctNNpJ"
+ETag: "84ZCDzR3m1slfH1ctNNpJ"
+< Date: Thu, 01 Jul 2021 21:07:52 GMT
+Date: Thu, 01 Jul 2021 21:07:52 GMT
+< Content-Type: application/json
+Content-Type: application/json
+< Content-Length: 52
+Content-Length: 52
+
+<
+{RZzz:66622222,maybe6:extraaaaaa,33:666,kalosze:333}* Connection #0 to host 127.0.0.1 left intact
+

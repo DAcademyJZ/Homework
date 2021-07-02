@@ -1,0 +1,8 @@
+C:\Users\jakub>curl -i -XPOST -H "Content-Type:application/json" -d "{"Hey":"Hej"}" http://127.0.0.1:8098/buckets/s23932/keys
+HTTP/1.1 201 Created
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Location: /buckets/s23932/keys/Ep8L7tQ14HLqwnl1VHFyNox8S1G
+Date: Thu, 01 Jul 2021 21:22:34 GMT
+Content-Type: application/json
+Content-Length: 0

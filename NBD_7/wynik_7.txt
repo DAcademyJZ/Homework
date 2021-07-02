@@ -1,0 +1,8 @@
+C:\Users\jakub>curl -i http://127.0.0.1:8098/buckets/s23932/keys/four
+HTTP/1.1 404 Object Not Found
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Thu, 01 Jul 2021 21:20:01 GMT
+Content-Type: text/plain
+Content-Length: 10
+
+not found

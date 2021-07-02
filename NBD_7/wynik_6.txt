@@ -1,0 +1,7 @@
+C:\Users\jakub>curl -i -XDELETE http://127.0.0.1:8098/buckets/s23932/keys/four
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Thu, 01 Jul 2021 21:18:35 GMT
+Content-Type: application/json
+Content-Length: 0
