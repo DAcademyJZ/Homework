@@ -1,0 +1,5 @@
+Dodano dokument
+Nowo dodany dokument: {"Lubie":"Placki", "Hey": "Czesc"}
+Modyfikacja pola Lubie: {"Lubie":"Pizze", "Hey": "Czesc"}
+Pobranie danych usunietego dokumentu
+Pobrany dokument po jego usunieciu: Nonezapytaniezao

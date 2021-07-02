@@ -1,0 +1,20 @@
+import riak
+riakClient = riak.RiakClient(pb_port=8087)
+
+bucket = riakClient.bucket('Zadanie_8')
+
+doc = {"Lubie":"Placki", "Hey": "Czesc"}
+key = bucket.new("document", data=doc)
+key.store()
+print('Dodano dokument')
+docs = bucket.get('document')
+print('Nowo dodany dokument: ' + str(docs.data))
+docs.data['Lubie'] = "Pizze"
+docs.store()
+
+dd = bucket.get("document")
+print("Modyfikacja pola Lubie: " + str(dd.data))
+dd.delete()
+print("Pobranie danych usunietego dokumentu")
+ddr2 = bucket.get("document")
+print("Pobrany dokument po jego usunieciu: " + str(ddr2.data))
